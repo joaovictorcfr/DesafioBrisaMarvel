@@ -23,12 +23,14 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 * Tela comprar quadrinhos;
 
  # Quadrinhos
-![Quadrinhos](.ImgTelas/TelaComics.png)
+ 
+![TelaComprar](https://user-images.githubusercontent.com/62362760/173595325-6bf16530-bbd9-4649-832d-ea0ff9d2930b.png)
 
 Tela de carregar quadrinhos realiza o consumo da API da marvel, carrengado um array de objetos com as capas e informações dos quadrinhos.
 
 # Comprar
-![Comprar](.ImgTelas/TelaComprar.png)
+
+![TelaComics](https://user-images.githubusercontent.com/62362760/173595357-ac21e789-c85c-4f14-a071-9d8169c331f6.png)
 
 Tela comprar realizar uma requisição do API do google maps, onde o mapa é carregado para o usuario inserir a sua localização, também é possivel ver informações do quadrinho que o usuario escolheu.
 
