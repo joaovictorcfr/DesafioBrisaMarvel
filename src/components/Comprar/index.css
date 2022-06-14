@@ -1,0 +1,128 @@
+.container {
+  height: 100%;
+  padding-top: 10px;
+}
+
+.mapa {
+  height: 100%;
+  padding-top: 15px;
+  background: linear-gradient(
+    to right,
+    rgb(129, 0, 32),
+    rgb(186, 38, 43),
+    rgb(227, 74, 68)
+  );
+}
+
+.bodymaps {
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgb(129, 0, 32),
+    rgb(186, 38, 43),
+    rgb(227, 74, 68)
+  );
+}
+
+.bodymaps h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 30px;
+  color: rgb(253, 253, 253);
+  text-align: center;
+}
+
+p {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 15px;
+  color: rgb(253, 253, 253);
+}
+
+.inputs {
+  margin: 0 auto;
+  padding: 0 auto;
+  margin-left: 260px;
+}
+
+.inputs input {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 20px;
+  background: rgb(255, 255, 255);
+  width: 20%;
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.inputs input::placeholder {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.botoes button {
+  display: inline;
+  background: #000000;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 2px solid red;
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 0 20px 0 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-left: 760px;
+  width: 150px;
+}
+
+.botoes button:hover {
+  background-color: rgb(158, 155, 155);
+}
+
+.modal {
+  display: flex;
+}
+
+.modal img {
+  width: 20%;
+  height: 20%;
+  margin-left: 200px;
+  padding-top: 40px;
+  padding-right: 10px;
+}
+.textos {
+  white-space: pre-wrap; /* CSS3 */
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* IE */
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.container h2 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 20px;
+  color: rgb(253, 253, 253);
+  text-align: center;
+  padding-top: 50px;
+}
+
+.container p {
+  padding-top: 20px;
+}
+
+.inputs p {
+  text-align: center;
+  margin-right: 250px;
+}
+
+.voltar {
+}

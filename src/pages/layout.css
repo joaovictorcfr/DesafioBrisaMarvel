@@ -1,0 +1,82 @@
+.layoutPage {
+  display: flex;
+  height: 100%;
+}
+
+.layoutMenu {
+  width: 250px;
+  height: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.layoutMenu ul {
+  padding-top: 10px;
+  list-style: none;
+}
+
+.layoutMenu ul li {
+  display: block;
+}
+.layoutMenu ul li a {
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  color: white;
+  padding-left: 50px;
+  border-radius: 3px;
+  width: 100%;
+}
+.layoutMenu ul li a:hover {
+  background-color: rgb(129,0,32);
+  transition: 1s;
+  width: 100%;
+}
+.imgMenu {
+  width: 250px;
+  padding-top: 570px;
+}
+
+.layoutContent {
+  margin-left: 250px;
+  flex: 1;
+  height:100%;
+  width: 100%;
+}
+
+.icon {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  color: rgb(2, 2, 2);
+  background-color: rgb(129,0,32);
+  width: 100%;
+  margin-top: auto;
+  height: 50px;
+}
+
+input {
+  background: transparent;
+  color: white;
+  margin-left: 17px;
+  font-size: 25px;
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+input::placeholder{
+  color: rgb(253, 253, 253);
+ }
+
+.icon svg {
+  color: white;
+  margin-left: 10px;
+  font-size: 30px;
+}
+

@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.quadrinhos {
+  display: flex;
+}
+
+.quadrinhos ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.quadrinhos ul li {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-content: space-around;
+  padding-top: 40px;
+  padding-left: 60px;
+
+  white-space: pre-wrap; /* CSS3 */
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* IE */
+}
+
+.name {
+  flex-wrap: wrap;
+  color: rgb(0, 0, 0);
+  white-space: pre-wrap; /* CSS3 */
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* IE */
+  text-align: center;
+  width: 350px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.body {
+  background: linear-gradient(to right, rgb(129,0,32),rgb(186,38,43),rgb(227,74,68));
+}
+
+.button {
+  background: #020202;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: 2px solid rgb(129,0,32);
+  text-decoration: none;
+  margin-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-left: 130px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(129,0,32);
+}
+
+.capcomics {
+  height: 500px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px black;
+  background-color: white;
+}
+
+.capcomics .imgs {
+  height: 400px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.body h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 30px;
+  color: rgb(253, 253, 253);
+  text-align: center;
+  width: 350px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
